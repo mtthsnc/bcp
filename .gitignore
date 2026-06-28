@@ -1,0 +1,25 @@
+# BCP ships the protocol + your brand content. Keep secrets and build noise out.
+
+# Secrets / local
+*.local
+.env
+.env.*
+
+# Generated harness wiring (install.sh recreates these symlinks; canonical skills live in harness/skills/)
+/.claude/
+/.pi/
+
+# Node / tooling
+node_modules/
+package-lock.json
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~
+__pycache__/
+*.pyc
+
+# Large/binary asset working files are usually committed deliberately under assets/;
+# ignore obvious export scratch.
+*.tmp

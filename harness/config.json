@@ -1,0 +1,18 @@
+{
+  "$schema": "./config.schema.json",
+  "brand": {
+    "name": "REPLACE_ME",
+    "tagline": "",
+    "owner": ""
+  },
+  "paths": {
+    "brand": "harness/brand",
+    "skills": "harness/skills",
+    "output": "harness/output",
+    "assets": "assets"
+  },
+  "brandCheck": {
+    "scoreDimensions": ["voice", "design", "accuracy"],
+    "passThreshold": 80
+  }
+}
