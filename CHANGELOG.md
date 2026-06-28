@@ -19,4 +19,4 @@ All notable changes to this BCP template are documented here. Format loosely fol
 
 ### Planned
 - A worked example output (landing page + trace) and a brand-check score in `09-loops`.
-- Optional ascension `/brand-init` generator to scaffold/update a brand repo from the dev stack.
+- Optional Tempest `/brand-init` generator to scaffold/update a brand repo from the dev stack.
